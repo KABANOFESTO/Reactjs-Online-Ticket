@@ -98,6 +98,10 @@
     color: var(--bs-secondary) !important;
 }
 
+#title{
+    color: #000;
+}
+
 
 /*** Section Title Start ***/
 

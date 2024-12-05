@@ -56,7 +56,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:8081/auth/reset-password', {
+      const response = await fetch('https://vubaride-0c82571cfca0.herokuapp.com/auth/reset-password', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

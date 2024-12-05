@@ -13,14 +13,14 @@ const Contact = () => {
           <div className="col-lg-4">
             <div className="bg-white rounded p-4">
               <div className="text-center mb-4">
-                <i className="fa fa-map-marker-alt fa-3x text-primary"></i>
+                <i className="fas fa-map-marker-alt fa-3x text-primary"></i>
                 <h4 className="text-primary">
                   <address></address>
                 </h4>
                 <p className="mb-0">Kigali City, Rwanda</p>
               </div>
               <div className="text-center mb-4">
-                <i className="fa fa-phone-alt fa-3x text-primary mb-3"></i>
+                <i className="fas fa-phone-alt fa-3x text-primary mb-3"></i>
                 <h4 className="text-primary">Mobile</h4>
                 <p className="mb-0">+250785206973</p>
               </div>

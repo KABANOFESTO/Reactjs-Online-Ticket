@@ -45,7 +45,7 @@ const Login = () => {
         setIsLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:8081/api/users/login', {
+            const response = await axios.post('https://vubaride-0c82571cfca0.herokuapp.com/api/users/login', {
                 email,
                 password,
             }, {
@@ -67,9 +67,9 @@ const Login = () => {
                     }));
 
                     if (jsonPayload.role === 'ADMIN') {
-                        window.location.href = './adminDash.html';
+                        window.location.href = 'http://127.0.0.1:5501/adminDash.html';
                     } else {
-                        window.location.href = './dash1.html';
+                        window.location.href = '/';
                     }
                 } else {
                     throw new Error('Token not defined in the response.');

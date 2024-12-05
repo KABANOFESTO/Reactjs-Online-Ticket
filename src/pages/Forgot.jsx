@@ -25,7 +25,7 @@ const Forgot = () => {
         setIsLoading(true);
 
         try {
-            const response = await fetch("http://localhost:8081/auth/forgot-password", {
+            const response = await fetch("https://vubaride-0c82571cfca0.herokuapp.com/auth/forgot-password", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

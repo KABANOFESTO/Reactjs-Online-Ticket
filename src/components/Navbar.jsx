@@ -30,8 +30,8 @@ const Navbar = () => {
         }`}
       >
         <Link to="/" className="navbar-brand p-0">
-          <h1 className="m-0">
-            <i className="fa fa-map-marker-alt me-3" id="title"></i>VubaRide
+          <h1 className="m-0" id="title">
+            <i className="fas fa-map-marker-alt me-3" ></i>VubaRide
           </h1>
         </Link>
         <button

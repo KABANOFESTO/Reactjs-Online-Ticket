@@ -1,11 +1,15 @@
 import React from 'react';
 import '../css/style.css';
+import a1 from '../assets/images/1-bus.jpg'
+import a2 from '../assets/images/3-bus.jpg'
+import a3 from '../assets/images/2-bus.jpg'
+
 
 const Gallery = () => {
   const galleryItems = [
-    { src: 'img/muhazi.jfif', lightbox: 'gallery-1' },
-    { src: 'img/tour.png', lightbox: 'gallery-2' },
-    { src: 'img/aka.jpg', lightbox: 'gallery-3' },
+    { src: a1, lightbox: 'gallery-1' },
+    { src: a2, lightbox: 'gallery-2' },
+    { src: a3, lightbox: 'gallery-3' },
   ];
 
   return (

@@ -26,7 +26,7 @@ const Booking = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:8081/api/bookings', {
+      const response = await fetch('https://vubaride-0c82571cfca0.herokuapp.com/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

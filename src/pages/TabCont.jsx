@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import '../css/style.css'
+import "../css/style.css";
+import img from "../assets/images/1-bus.jpg";
 
 const TabContent = ({ id, isActive, places }) => (
   <div id={id} className={`tab-pane fade ${isActive ? "show active" : ""} p-0`}>
@@ -16,7 +17,8 @@ const TabContent = ({ id, isActive, places }) => (
             <div className="destination-overlay p-4">
               <h4 className="text-white mb-2 mt-3">{place.title}</h4>
               <a href="#" className="btn-hover text-white">
-                Designed By Levis😎<i className="fa fa-arrow-right ms-2"></i>
+                Designed By Kabano 😎
+                <i className="fa fa-arrow-right ms-2"></i>
               </a>
             </div>
             <div className="search-icon">
@@ -45,55 +47,55 @@ const TabCont = () => {
   const tabContents = {
     "tab-2": [
       {
-        imgSrc: "./img/volcanoes1.jpg",
+        imgSrc: img,
         title: "Volcanoes National Park",
         lightbox: "destination-5",
       },
       {
-        imgSrc: "img/caves.jpg",
+        imgSrc: img,
         title: "Musanze Caves",
         lightbox: "destination-6",
       },
     ],
     "tab-3": [
       {
-        imgSrc: "img/huye_n.jpg",
+        imgSrc: img,
         title: "Huye National Museum",
         lightbox: "destination-5",
       },
       {
-        imgSrc: "img/king.jpg",
+        imgSrc: img,
         title: "King's Palace Museum",
         lightbox: "destination-6",
       },
     ],
     "tab-4": [
       {
-        imgSrc: "img/rubavu-large.jpg",
+        imgSrc: img,
         title: "Lake Kivu",
         lightbox: "destination-5",
       },
       {
-        imgSrc: "img/c3.jpg",
+        imgSrc: img,
         title: "Ibere Rya Bigogwe",
         lightbox: "destination-6",
       },
     ],
     "tab-5": [
       {
-        imgSrc: "img/aka.jpg",
+        imgSrc: img,
         title: "Akagera National Park",
         lightbox: "destination-5",
       },
     ],
     "tab-6": [
       {
-        imgSrc: "img/nyamirambo.jpg",
+        imgSrc: img,
         title: "Nyamirambo Neighborhood",
         lightbox: "destination-5",
       },
       {
-        imgSrc: "img/kandt.jpg",
+        imgSrc: img,
         title: "Kandt House Museum",
         lightbox: "destination-6",
       },
